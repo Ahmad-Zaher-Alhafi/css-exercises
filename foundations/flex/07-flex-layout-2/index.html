@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Holy Grail</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Game Developer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="header">
-    MY AWESOME WEBSITE
-  </div>
-
-  <div class="content">
-    <div class="sidebar">
-      <ul>
-        <li><a href="#">⭐ - link one</a></li>
-        <li><a href="#">🦸🏽‍♂️ - link two</a></li>
-        <li><a href="#">🖌️ - link three</a></li>
-        <li><a href="#">👌🏽 - link four</a></li>
-      </ul>
-    </div>
-
-    <div class="cards">
-      <div class="cards-content">
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos
-          maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti
-          veritatis minima porro?</div>
-        <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores
-          velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.
+    <header class="header">
+        <div class="logo">
+            <h1><span>&lt;</span>MyPortfolio<span>/&gt;</span></h1>
         </div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi
-          aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse
-          autem?</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet
-          adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima
-          laboriosam eos!</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi
-          aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse
-          autem?</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet
-          adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima
-          laboriosam eos!</div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    The Odin Project ❤️
-  </div>
-</body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <h2>Hello, I'm a Game Developer 👾</h2>
+        <p>Creating immersive games with Unreal Engine, Unity, and passion for code.</p>
+        <a href="#projects" class="btn">See My Work</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate game developer with 7+ years of experience building multiplayer games, co-op experiences, and physics-based gameplay mechanics. I specialize in Unreal Engine and Unity, focusing on creating engaging and immersive experiences for players.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>🚀 Space Co-op Adventure</h3>
+                <p>A multiplayer space game with physics-based mechanics.</p>
+            </div>
+            <div class="project-card">
+                <h3>🎢 Rail Route</h3>
+                <p>A relaxing train network simulation game available on Steam.</p>
+            </div>
+            <div class="project-card">
+                <h3>🛸 VR Shooter</h3>
+                <p>An immersive VR FPS built with Unity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>🎮 Game Engines: Unreal Engine, Unity</li>
+            <li>💻 Programming Languages: C#, C++, Python</li>
+            <li>🧑‍💻 Multiplayer Networking: Netcode for Unity, Photon</li>
+            <li>🎵 Audio Systems: FMOD, Wwise</li>
+            <li>📱 Tools: Git, Rider, Visual Studio</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate or learn more about my work, feel free to reach out!</p>
+        <a href="mailto:your.email@example.com" class="btn">Get In Touch</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio | Made with ❤️ by Me</p>
+    </footer>
+</body>
 </html>
